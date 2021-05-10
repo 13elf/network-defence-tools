@@ -6,6 +6,5 @@ It relies on the idea of opening multiple concurrent connections from one comput
 xerxes-defender will also flush all previous iptables rules and it doesn't offer decent rules for output chain. It's recommended to take a backup of your previous firewall configuration before you execute the script. Output rules can be added in the script as well.
 
 # How to Use
-chmod +x xerxes-defender.sh
-
+$ chmod +x xerxes-defender.sh
 $ ./xerxes-defender.sh

@@ -7,4 +7,5 @@ xerxes-defender will also flush all previous iptables rules and it doesn't offer
 
 # How to Use
 chmod +x xerxes-defender.sh
-./xerxes-defender.sh
+
+$ ./xerxes-defender.sh

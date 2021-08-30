@@ -5,4 +5,4 @@ ARP protocol, in a local area network is used to pair IP and MAC addresses. If o
 Our defense tool simply looks at the arp entries by executing "arp -n" which displays all the entries saved in the host. Then, it looks for two different IP addresses with the same entry. That only happens when there's a man in the middle attack since the attacker replicates the MAC address of a legitiate host and makes it look like he has that MAC address too. When that happens, the tool gives you a notification indicating there's a man in the middle attack so you don't give away any sensitive information over an unencrypted protocol.
 
 # Where should I use it?
-This tool can be used in public networks and untrusted environments to prevent situations where you may reveal your confidential data without really encrypting it
+This tool can be used in public networks and untrusted environments to prevent situations where you may reveal your confidential data without encryption.
